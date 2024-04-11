@@ -3,12 +3,12 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SalesPersonListComponent } from './sales-person-list/sales-person-list.component';
+import { ProductListComponent } from './components/product-list/product-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SalesPersonListComponent
+    ProductListComponent
   ],
   imports: [
     BrowserModule,
